@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find-pkg-share l1_slam)/launch/l1.launch.py"/>
+    <include file="$(find-pkg-share l1_slam)/launch/tf.launch.xml"/>
+    <include file="$(find-pkg-share l1_slam)/launch/cartographer.launch.py"/>
+    <include file="$(find-pkg-share l1_slam)/launch/rviz2.launch.xml"/>
+</launch>

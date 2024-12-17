@@ -1,0 +1,6 @@
+<launch>
+    <node
+        pkg="rviz2"
+        exec="rviz2"
+        args="-d $(find-pkg-share l1_slam)/rviz/l1_slam.rviz"/>
+</launch>
